@@ -83,12 +83,12 @@ Admin --> MonitorActivities
 - Name
 - Email
 
-  # ER Diagram
+# ER Diagram
 
 ```mermaid
 erDiagram
 
-    STUDENT ||--o{ QUIZ : attempts
+    STUDENT ||--o{ QUIZ : attends
     STUDENT ||--o{ CHALLENGE : completes
     STUDENT ||--o{ REWARD : earns
 
@@ -96,21 +96,25 @@ erDiagram
         int Student_ID
         string Name
         string Email
+        int Score
     }
 
     QUIZ {
         int Quiz_ID
         string Quiz_Name
+        int Points
     }
 
     CHALLENGE {
         int Challenge_ID
         string Challenge_Name
+        string Difficulty
     }
 
     REWARD {
         int Reward_ID
         string Reward_Name
+        int Reward_Points
     }
 ```
 # Database Schema
