@@ -163,5 +163,54 @@ Tools Used:
 - VS Code
 - GitHub
 
-Status:
-Frontend environment setup completed.
+# Login Module
+
+## Description
+The login module allows students and administrators to access the system securely.
+
+## Features
+- Student Login
+- Admin Login
+- Username Validation
+- Password Validation
+
+# Registration Module
+
+## Description
+The registration module allows new students to create an account.
+
+## Features
+- Student Registration
+- Email Validation
+- Password Creation
+- Profile Setup
+
+# Dashboard UI
+
+## Description
+The dashboard displays student activities and progress.
+
+## Features
+- View Progress
+- Quiz Score Display
+- Rewards Display
+- Challenge Status
+
+# CRUD Form Development
+
+## Description
+CRUD operations are used to manage quizzes, challenges, rewards, and student records.
+
+## Operations
+
+### Create
+Add new quiz or challenge.
+
+### Read
+View existing records.
+
+### Update
+Modify quiz, challenge, or reward details.
+
+### Delete
+Remove unwanted records.
