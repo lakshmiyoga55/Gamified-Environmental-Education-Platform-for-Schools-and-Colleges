@@ -214,3 +214,168 @@ Modify quiz, challenge, or reward details.
 
 ### Delete
 Remove unwanted records.
+
+# Table & Search Features
+
+## Description
+
+This module displays environmental activities, quizzes, and challenges in a table format. Users can search and filter records easily.
+
+## Features
+
+- Display quiz list
+- Display challenge list
+- Search by title
+- Filter by category
+- Sort records
+
+# Frontend Testing
+
+## Description
+
+Frontend testing ensures that all user interface pages work correctly.
+
+## Tested Pages
+
+- Login Page
+- Registration Page
+- Dashboard
+- Quiz Page
+- Challenge Page
+- Reward Page
+
+# Spring Boot Project Setup
+
+## Description
+
+The backend project is created using Spring Boot.
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Maven
+- MySQL
+
+# Database Connectivity
+
+## Description
+
+The application is connected with the MySQL database to store and retrieve data.
+
+## Database
+
+- MySQL
+
+## Tables
+
+- Student
+- Quiz
+- Challenge
+- Reward
+
+# Database Connectivity
+
+## Description
+The application is connected to the MySQL database for storing and retrieving data.
+
+## Technologies
+- MySQL
+- Spring Boot
+- JDBC
+
+# Entity & Repository Creation
+
+## Description
+Entity classes represent database tables, and repositories perform CRUD operations.
+
+## Entities
+- Student
+- Quiz
+- Challenge
+- Reward
+
+# REST API Development
+
+## Description
+REST APIs are developed for communication between frontend and backend.
+
+## APIs
+- Login API
+- Register API
+- Quiz API
+- Challenge API
+- Reward API
+
+# Authentication Module
+
+## Description
+Authentication verifies user identity before accessing the system.
+
+## Features
+- Student Login
+- Admin Login
+- Secure Authentication
+
+# Business Logic
+
+## Description
+Business logic manages quizzes, challenges, rewards, and student progress.
+
+## Functions
+- Quiz Management
+- Challenge Management
+- Reward Management
+
+# API Testing
+
+## Description
+REST APIs are tested using Postman.
+
+## Tested APIs
+- Login
+- Register
+- Quiz
+- Challenge
+- Reward
+
+# Frontend & Backend Integration
+
+## Description
+Frontend is connected with backend APIs to exchange data.
+
+## Technologies
+- React.js
+- Spring Boot
+- REST API
+
+# Bug Fixing & Validation
+
+## Description
+Application bugs are identified and fixed to improve performance.
+
+## Validation
+- Login Validation
+- Form Validation
+- Data Validation
+
+# Documentation
+
+## Description
+Project documentation and presentation are prepared.
+
+## Documents
+- Project Report
+- PPT
+- GitHub Repository
+
+# Final Project Submission
+
+## Description
+The project is completed and submitted successfully.
+
+## Deliverables
+- Source Code
+- Documentation
+- Presentation
+- GitHub Repository
