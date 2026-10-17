@@ -1,387 +1,161 @@
-# Gamified Environmental Education Platform for Schools and Colleges
+# 🌱 EcoQuest — Gamified Environmental Education Platform
 
-## 🌱 EcoQuest — Live Demo
+**A Gamified Environmental Education Platform for Schools and Colleges**
 
-🚀 **Live Website:** https://gamified-environmental-education-pl-delta.vercel.app
+🚀 **Live Demo:** [Open EcoQuest Website](https://gamified-environmental-education-pl-delta.vercel.app)
 
-**EcoQuest** is a gamified environmental education platform designed to encourage students to learn about sustainability through interactive quizzes, challenges, and rewards.
+## 📌 About the Project
 
-## Problem Statement
+EcoQuest is a web-based environmental education project designed to encourage students to learn about environmental awareness, sustainability, and eco-friendly practices through an engaging digital experience.
 
-Students often lack awareness about environmental issues and sustainability practices. This project aims to improve environmental education through quizzes, challenges, rewards, and interactive activities.
+The project aims to make environmental learning more interactive and interesting by using gamification concepts such as quizzes, challenges, and rewards.
 
-# Project Objectives
+## 🎯 Problem Statement
+
+Students may have limited awareness of environmental issues and sustainable practices. Traditional learning methods may not always provide enough interactive activities to encourage students to participate in environmental education.
+
+EcoQuest aims to address this challenge by providing a gamified platform that encourages students to explore environmental topics and develop sustainable habits.
+
+## 🎯 Project Objectives
 
 - Increase environmental awareness among students.
-- Encourage learning through quizzes and challenges.
-- Reward students for completing activities.
-- Track student learning progress.
-- Promote sustainable practices.
+- Encourage interactive learning about sustainability.
+- Introduce quizzes and environmental challenges.
+- Motivate students through gamification concepts.
+- Encourage responsible and eco-friendly habits.
+- Provide a foundation for tracking learning progress.
 
-# User Identification
+## 👥 Target Users
 
-## Student
-- Attend quizzes
-- Complete challenges
-- Earn rewards
-- View progress
+### Student
+- Learn about environmental issues.
+- Explore environmental quizzes and challenges.
+- Participate in sustainability-related activities.
 
-## Admin
-- Manage users
-- Create quizzes
-- Create challenges
-- Monitor activities
+### Administrator — Planned Enhancement
+- Manage student accounts.
+- Create and manage quizzes.
+- Organize environmental challenges.
+- Monitor student participation.
 
-# Module Identification
+*Administrator functionality depends on the features implemented in the application.*
 
-1. Login Module
-2. Quiz Module
-3. Challenge Module
-4. Reward Module
-5. Progress Tracking Module
-6. Admin Management Module
+## ✨ Project Modules
 
-# Use Case Diagram
+The project is organized around the following modules:
+
+1. User Interface
+2. Student Learning
+3. Environmental Quiz
+4. Environmental Challenges
+5. Rewards and Gamification
+6. Progress Tracking — Planned Enhancement
+7. Administration — Planned Enhancement
+
+*The availability of each module depends on the current implementation.*
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js
+- JavaScript
+- HTML
+- CSS
+
+### Development Tools
+- Visual Studio Code
+- Git and GitHub
+- Vercel for deployment
+
+*The exact libraries and versions are available in `package.json`.*
+
+## 🏗️ System Design
+
+The current application is deployed as a web frontend. A backend and database can be added to support persistent user accounts, quiz records, rewards, and progress tracking.
+
+### Proposed Architecture
 
 ```mermaid
-graph LR
-
-Student[Student]
-Admin[Admin]
-
-Student --> Login
-Student --> AttendQuiz
-Student --> CompleteChallenge
-Student --> EarnRewards
-Student --> ViewProgress
-
-Admin --> Login
-Admin --> ManageUsers
-Admin --> CreateQuiz
-Admin --> CreateChallenge
-Admin --> MonitorActivities
+flowchart TD
+    A[Student / Administrator] --> B[React Frontend]
+    B --> C[Backend API - Planned]
+    C --> D[Database - Planned]
+    C --> E[Quiz and Challenge Logic - Planned]
 ```
-# Database Requirement Analysis
-
-## Student
-- Student_ID
-- Name
-- Email
-- Score
-
-## Quiz
-- Quiz_ID
-- Quiz_Name
-- Points
-
-## Challenge
-- Challenge_ID
-- Challenge_Name
-- Reward
-
-## Reward
-- Reward_ID
-- Reward_Name
-- Points
-
-## Admin
-- Admin_ID
-- Name
-- Email
-
-# ER Diagram
-
-```mermaid
-erDiagram
-
-    STUDENT ||--o{ QUIZ : attends
-    STUDENT ||--o{ CHALLENGE : completes
-    STUDENT ||--o{ REWARD : earns
-
-    STUDENT {
-        int Student_ID
-        string Name
-        string Email
-        int Score
-    }
-
-    QUIZ {
-        int Quiz_ID
-        string Quiz_Name
-        int Points
-    }
-
-    CHALLENGE {
-        int Challenge_ID
-        string Challenge_Name
-        string Difficulty
-    }
-
-    REWARD {
-        int Reward_ID
-        string Reward_Name
-        int Reward_Points
-    }
-```
-# Database Schema
 
-Tables:
-1. Student
-2. Quiz
-3. Challenge
-4. Reward
-5. Admin
+## 🗂️ Proposed Database Design
 
-# Login and Dashboard UI
+The following entities may be used when backend and database functionality is implemented.
 
-- Student Login Screen
-- Admin Login Screen
-- Student Dashboard
-- Admin Dashboard
+| Entity | Example Attributes |
+|---|---|
+| Student | Student_ID, Name, Email, Score |
+| Quiz | Quiz_ID, Quiz_Name, Points |
+| Challenge | Challenge_ID, Challenge_Name, Reward |
+| Reward | Reward_ID, Reward_Name, Points |
+| Admin | Admin_ID, Name, Email |
 
-  # Navigation and Form Design
+*This is a proposed database design, not a claim that these database tables are already connected.*
 
-Forms:
-- Login Form
-- Quiz Form
-- Challenge Submission Form
+## 🚀 Live Deployment
 
-Navigation:
-- Home
-- Dashboard
-- Quiz
-- Challenges
-- Rewards
+EcoQuest is deployed using Vercel.
 
-  # Design Review
+**Live Website:** [https://gamified-environmental-education-pl-delta.vercel.app](https://gamified-environmental-education-pl-delta.vercel.app)
 
-- Reviewed project requirements
-- Verified UI design
-- Verified database design
-- Approved system design
+The source code is maintained in GitHub.
 
-  # Frontend Environment Setup
+## 💻 Run the Project Locally
 
-## React Project Setup
+### Prerequisites
+- Node.js
+- npm
+- Git
 
-Tools Used:
-- React.js
-- VS Code
-- GitHub
+### Installation
 
-# Login Module
+1. Clone the repository:
 
-## Description
-The login module allows students and administrators to access the system securely.
+   ```bash
+   git clone https://github.com/lakshmiyoga55/Gamified-Environmental-Education-Platform-for-Schools-and-Colleges.git
+   ```
 
-## Features
-- Student Login
-- Admin Login
-- Username Validation
-- Password Validation
+2. Navigate to the project folder:
 
-# Registration Module
+   ```bash
+   cd Gamified-Environmental-Education-Platform-for-Schools-and-Colleges
+   ```
 
-## Description
-The registration module allows new students to create an account.
+3. Install dependencies:
 
-## Features
-- Student Registration
-- Email Validation
-- Password Creation
-- Profile Setup
+   ```bash
+   npm install
+   ```
 
-# Dashboard UI
+4. Start the development server:
 
-## Description
-The dashboard displays student activities and progress.
+   ```bash
+   npm run dev
+   ```
 
-## Features
-- View Progress
-- Quiz Score Display
-- Rewards Display
-- Challenge Status
+5. Open the local URL displayed in your terminal.
 
-# CRUD Form Development
+## 🔮 Future Enhancements
 
-## Description
-CRUD operations are used to manage quizzes, challenges, rewards, and student records.
+- Student registration and authentication.
+- Administrator dashboard.
+- Interactive environmental quizzes.
+- Environmental challenges and reward points.
+- Student progress tracking.
+- Backend API integration.
+- Database integration.
+- Search and filtering for learning activities.
 
-## Operations
+## 🤝 Contribution
 
-### Create
-Add new quiz or challenge.
+Suggestions and contributions that improve environmental awareness and interactive learning are welcome.
 
-### Read
-View existing records.
+## 📄 License
 
-### Update
-Modify quiz, challenge, or reward details.
+A license can be added once the project’s distribution terms have been decided.
 
-### Delete
-Remove unwanted records.
-
-# Table & Search Features
-
-## Description
-
-This module displays environmental activities, quizzes, and challenges in a table format. Users can search and filter records easily.
-
-## Features
-
-- Display quiz list
-- Display challenge list
-- Search by title
-- Filter by category
-- Sort records
-
-# Frontend Testing
-
-## Description
-
-Frontend testing ensures that all user interface pages work correctly.
-
-## Tested Pages
-
-- Login Page
-- Registration Page
-- Dashboard
-- Quiz Page
-- Challenge Page
-- Reward Page
-
-# Spring Boot Project Setup
-
-## Description
-
-The backend project is created using Spring Boot.
-
-## Technologies Used
-
-- Java
-- Spring Boot
-- Maven
-- MySQL
-
-# Database Connectivity
-
-## Description
-
-The application is connected with the MySQL database to store and retrieve data.
-
-## Database
-
-- MySQL
-
-## Tables
-
-- Student
-- Quiz
-- Challenge
-- Reward
-
-# Database Connectivity
-
-## Description
-The application is connected to the MySQL database for storing and retrieving data.
-
-## Technologies
-- MySQL
-- Spring Boot
-- JDBC
-
-# Entity & Repository Creation
-
-## Description
-Entity classes represent database tables, and repositories perform CRUD operations.
-
-## Entities
-- Student
-- Quiz
-- Challenge
-- Reward
-
-# REST API Development
-
-## Description
-REST APIs are developed for communication between frontend and backend.
-
-## APIs
-- Login API
-- Register API
-- Quiz API
-- Challenge API
-- Reward API
-
-# Authentication Module
-
-## Description
-Authentication verifies user identity before accessing the system.
-
-## Features
-- Student Login
-- Admin Login
-- Secure Authentication
-
-# Business Logic
-
-## Description
-Business logic manages quizzes, challenges, rewards, and student progress.
-
-## Functions
-- Quiz Management
-- Challenge Management
-- Reward Management
-
-# API Testing
-
-## Description
-REST APIs are tested using Postman.
-
-## Tested APIs
-- Login
-- Register
-- Quiz
-- Challenge
-- Reward
-
-# Frontend & Backend Integration
-
-## Description
-Frontend is connected with backend APIs to exchange data.
-
-## Technologies
-- React.js
-- Spring Boot
-- REST API
-
-# Bug Fixing & Validation
-
-## Description
-Application bugs are identified and fixed to improve performance.
-
-## Validation
-- Login Validation
-- Form Validation
-- Data Validation
-
-# Documentation
-
-## Description
-Project documentation and presentation are prepared.
-
-## Documents
-- Project Report
-- PPT
-- GitHub Repository
-
-# Final Project Submission
-
-## Description
-The project is completed and submitted successfully.
-
-## Deliverables
-- Source Code
-- Documentation
-- Presentation
-- GitHub Repository
