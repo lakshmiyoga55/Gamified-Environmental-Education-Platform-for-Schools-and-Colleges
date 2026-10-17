@@ -1,5 +1,11 @@
 # Gamified Environmental Education Platform for Schools and Colleges
 
+## 🌱 EcoQuest — Live Demo
+
+🚀 **Live Website:** https://gamified-environmental-education-pl-delta.vercel.app
+
+**EcoQuest** is a gamified environmental education platform designed to encourage students to learn about sustainability through interactive quizzes, challenges, and rewards.
+
 ## Problem Statement
 
 Students often lack awareness about environmental issues and sustainability practices. This project aims to improve environmental education through quizzes, challenges, rewards, and interactive activities.
