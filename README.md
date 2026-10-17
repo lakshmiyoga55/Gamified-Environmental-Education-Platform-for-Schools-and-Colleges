@@ -2,90 +2,93 @@
 
 **A Gamified Environmental Education Platform for Schools and Colleges**
 
-🚀 **Live Demo:** [Open EcoQuest Website](https://gamified-environmental-education-pl-delta.vercel.app)
+🚀 **Live Demo:** [Open EcoQuest Website](https://gamified-environmental-education-pl-delta.vercel.app/)
 
 ## 📌 About the Project
 
 EcoQuest is a web-based environmental education project designed to encourage students to learn about environmental awareness, sustainability, and eco-friendly practices through an engaging digital experience.
 
-The project aims to make environmental learning more interactive and interesting by using gamification concepts such as quizzes, challenges, and rewards.
+The project explores gamification concepts to make environmental learning more interactive and interesting through quizzes, challenges, and rewards.
 
 ## 🎯 Problem Statement
 
 Students may have limited awareness of environmental issues and sustainable practices. Traditional learning methods may not always provide enough interactive activities to encourage students to participate in environmental education.
 
-EcoQuest aims to address this challenge by providing a gamified platform that encourages students to explore environmental topics and develop sustainable habits.
+EcoQuest aims to address this challenge by creating an engaging digital platform for environmental learning and promoting sustainable habits.
 
 ## 🎯 Project Objectives
 
 - Increase environmental awareness among students.
 - Encourage interactive learning about sustainability.
-- Introduce quizzes and environmental challenges.
+- Introduce environmental quizzes and challenges.
 - Motivate students through gamification concepts.
-- Encourage responsible and eco-friendly habits.
+- Promote responsible and eco-friendly habits.
 - Provide a foundation for tracking learning progress.
 
 ## 👥 Target Users
 
-### Student
-- Learn about environmental issues.
-- Explore environmental quizzes and challenges.
-- Participate in sustainability-related activities.
+### Students
 
-### Administrator — Planned Enhancement
+- Explore environmental learning content.
+- Learn about sustainability and eco-friendly practices.
+- Participate in quizzes and environmental challenges where implemented.
+
+### Administrators — Planned Enhancement
+
 - Manage student accounts.
 - Create and manage quizzes.
 - Organize environmental challenges.
 - Monitor student participation.
 
-*Administrator functionality depends on the features implemented in the application.*
+*The availability of these features depends on the current implementation.*
 
 ## ✨ Project Modules
 
-The project is organized around the following modules:
-
 1. User Interface
-2. Student Learning
-3. Environmental Quiz
-4. Environmental Challenges
-5. Rewards and Gamification
-6. Progress Tracking — Planned Enhancement
-7. Administration — Planned Enhancement
-
-*The availability of each module depends on the current implementation.*
+2. Environmental Learning
+3. Quiz Module — based on implementation
+4. Environmental Challenges — based on implementation
+5. Rewards and Gamification — based on implementation
+6. Progress Tracking — planned enhancement
+7. Administration — planned enhancement
 
 ## 🛠️ Technologies Used
 
 ### Frontend
+
 - React.js
 - JavaScript
 - HTML
 - CSS
 
-### Development Tools
+### Development and Deployment Tools
+
 - Visual Studio Code
-- Git and GitHub
-- Vercel for deployment
+- Git
+- GitHub
+- Vercel
 
-*The exact libraries and versions are available in `package.json`.*
+*Refer to `package.json` for the project's dependencies and available scripts.*
 
-## 🏗️ System Design
+## 🏗️ System Architecture
 
-The current application is deployed as a web frontend. A backend and database can be added to support persistent user accounts, quiz records, rewards, and progress tracking.
+The current application is deployed as a web frontend. Backend services and database integration can be introduced to support persistent user accounts, quiz records, rewards, and learning progress.
 
 ### Proposed Architecture
 
 ```mermaid
 flowchart TD
-    A[Student / Administrator] --> B[React Frontend]
-    B --> C[Backend API - Planned]
-    C --> D[Database - Planned]
-    C --> E[Quiz and Challenge Logic - Planned]
+    A["Student / Administrator"] --> B["React Frontend"]
+    B --> C["Backend API - Planned"]
+    C --> D[("Database - Planned")]
+    C --> E["Quiz and Challenge Logic - Planned"]
 ```
+
+*The backend and database components shown above are proposed enhancements, not confirmed existing integrations.*
 
 ## 🗂️ Proposed Database Design
 
-The following entities may be used when backend and database functionality is implemented.
+The following entities may be considered when backend and database functionality is implemented.
 
 | Entity | Example Attributes |
 |---|---|
@@ -95,50 +98,53 @@ The following entities may be used when backend and database functionality is im
 | Reward | Reward_ID, Reward_Name, Points |
 | Admin | Admin_ID, Name, Email |
 
-*This is a proposed database design, not a claim that these database tables are already connected.*
+*This is a conceptual design. It does not imply that these tables already exist in a connected database.*
 
 ## 🚀 Live Deployment
 
 EcoQuest is deployed using Vercel.
 
-**Live Website:** [https://gamified-environmental-education-pl-delta.vercel.app](https://gamified-environmental-education-pl-delta.vercel.app)
+**Live Website:** [Visit EcoQuest](https://gamified-environmental-education-pl-delta.vercel.app/)
 
-The source code is maintained in GitHub.
+**Source Code:** [View the GitHub Repository](https://github.com/lakshmiyoga55/Gamified-Environmental-Education-Platform-for-Schools-and-Colleges)
 
 ## 💻 Run the Project Locally
 
 ### Prerequisites
+
 - Node.js
 - npm
 - Git
 
-### Installation
+### Installation Steps
 
-1. Clone the repository:
+**1. Clone the repository**
 
-   ```bash
-   git clone https://github.com/lakshmiyoga55/Gamified-Environmental-Education-Platform-for-Schools-and-Colleges.git
-   ```
+```bash
+git clone https://github.com/lakshmiyoga55/Gamified-Environmental-Education-Platform-for-Schools-and-Colleges.git
+```
 
-2. Navigate to the project folder:
+**2. Navigate to the project directory**
 
-   ```bash
-   cd Gamified-Environmental-Education-Platform-for-Schools-and-Colleges
-   ```
+```bash
+cd Gamified-Environmental-Education-Platform-for-Schools-and-Colleges
+```
 
-3. Install dependencies:
+**3. Install dependencies**
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-4. Start the development server:
+**4. Start the development server**
 
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+```
 
-5. Open the local URL displayed in your terminal.
+**5. Open the local URL**
+
+Open the URL displayed in your terminal in a web browser.
 
 ## 🔮 Future Enhancements
 
@@ -150,12 +156,12 @@ The source code is maintained in GitHub.
 - Backend API integration.
 - Database integration.
 - Search and filtering for learning activities.
+- Responsive design and accessibility improvements.
 
-## 🤝 Contribution
+## 🤝 Contributions
 
 Suggestions and contributions that improve environmental awareness and interactive learning are welcome.
 
 ## 📄 License
 
-A license can be added once the project’s distribution terms have been decided.
-
+Refer to the repository's `LICENSE` file for the applicable license terms.
